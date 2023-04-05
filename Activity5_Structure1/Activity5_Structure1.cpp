@@ -13,5 +13,28 @@ struct mahasiswa
 int main() {
 	mahasiswa mhs, mhs2;
 
-	
+	mhs.nim = "20220140075";
+	mhs.umur = 20;
+	mhs.nama = "Muhammad Alifian Aqilah";
+	mhs.alamat = "Karawang";
+
+	cout << "masukan nim =";
+	cin >> mhs2.nim;
+	cout << "masukan umur=";
+	cin >> mhs2.umur;
+	cout << "masukan nama=";
+	cin >> mhs2.nama;
+	cout << "masukan alamat=";
+	cin >> mhs2.alamat;
+
+	cout << "NIM =" << mhs.nim;
+	cout << "\nUmur =" << mhs.umur;
+	cout << "\nNama =" << mhs.nama;
+	cout << "\nAlamat =" << mhs.alamat;
+
+	cout << "\nNIM =" << mhs2.nim;
+	cout << "\nUmur =" << mhs2.umur;
+	cout << "\nNama =" << mhs2.nama;
+	cout << "\nAlamat =" << mhs2.alamat;
+
 }
