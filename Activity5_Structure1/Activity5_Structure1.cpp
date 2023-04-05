@@ -9,3 +9,9 @@ struct mahasiswa
 	int umur;
 };
 
+
+int main() {
+	mahasiswa mhs, mhs2;
+
+	
+}
